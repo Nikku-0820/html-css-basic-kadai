@@ -27,11 +27,11 @@ main {
 }
 
 .contents {
-border: 3px solid rgb(238, 204, 204);
-flex-basis: 25%;
-padding: 10px, 15px;
-margin: 20px, 0px;
-text-align: center;
+  border: 3px solid rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding: 10px, 15px;
+  margin: 20px, 0px;
+  text-align: center;
 }
 
 h2 {
@@ -72,8 +72,9 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  div {
-    display: block;
+  #parent {
+    display: flex;
+    flex-direction: column;
   }
   P {
     font-size: 25px;
